@@ -75,3 +75,5 @@ data "google_container_cluster" "main" {
   # Location (region)
   location = var.GOOGLE_REGION
 }
+
+module.gke_cluster.local_file.kubeconfig
